@@ -3,8 +3,6 @@
 * [BEM-VINDO](bem-vindo.md)
   * [História Cidade dos Artistas](bem-vindo/historia-cidade-dos-artistas.md)
     * [Season 1](bem-vindo/historia-cidade-dos-artistas/season-1.md)
-    * [Season 2](bem-vindo/historia-cidade-dos-artistas/season-2.md)
-    * [Season 3](bem-vindo/historia-cidade-dos-artistas/season-3.md)
   * [Politica de Privacidade](bem-vindo/politica-de-privacidade.md)
   * [REGRAS BÁSICAS](bem-vindo/regras-basicas.md)
     * [Regras Básicas](bem-vindo/regras-basicas/regras-basicas.md)
