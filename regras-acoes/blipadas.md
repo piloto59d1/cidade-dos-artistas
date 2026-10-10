@@ -1,0 +1,18 @@
+# Blipadas
+
+* [Ações Pequeno Porte](broken://pages/b2efce293bdba03e177ee54f7897da0d0689ab78)
+* [Caixa Eletrônico (ATM)](broken://pages/1b35572aa43f2968133045912c67787562dcbdd6)
+* [Barbearia](broken://pages/ab94ac5c8530cf0c1e88709984e8c183d1b5dcef)
+* [Loja de Departamento](broken://pages/251c132b4c05c34ec5cd27fab0028938f6749704)
+* [Roubo a Residência](broken://pages/69a8aec22d9fbe30c01dfdf8ed056a20b6078fb7)
+* [Ammunation](broken://pages/0640b6c5f3fabe7ac5f3ccbdbe8aca1b7401473a)
+* [Ações Medio Porte](broken://pages/a1cedff4fc6d7d2528d8cd5745dc3cb5de2fe399)
+* [Life Invader](broken://pages/4c42be3f74140888d2792d5ab5987444fca3e180)
+* [Bancos Fleeca](broken://pages/7ed35f90776712aee112435b858ee9382a41ab43)
+* [Açougue / Galinheiro](broken://pages/c32d2e6b30e987f63d5acdd84b4e3ecb77462817)
+* [Carro Forte](broken://pages/9da92a671d7108432eb271b4fe09a7c17fcf1dd7)
+* [Joalheria](broken://pages/73c9e76eb64eb3d81032aeead0a00c3214308d69)
+* [Ações Grande Porte](broken://pages/ca421772b86ec595fa2b2ec3468b6ca7a628243e)
+* [Bancos Paleto](broken://pages/1572d0bf13167b19ce1e640a68bd30113fa15633)
+* [Banco Central](broken://pages/05b9edd4d84a207f6c22443cdf546236bf7b85b8)
+* [Nióbio](broken://pages/3d32ff30e879d03f7d9985674c64a6a5207bf89e)
