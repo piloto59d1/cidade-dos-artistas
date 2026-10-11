@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Regras — Cidade dos Artistas</title>
+  <title>Regras Cidade dos Artistas</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Documentação oficial de regras da Cidade dos Artistas RP">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -213,6 +213,11 @@
           content = content.replace(/\{%\s*endstep\s*%\}/g, '\n</div>\n');
           content = content.replace(/\{%\s*embed\s+[^%]*%\}/g, '');
           return content;
+        });
+
+        // Mantém o título da aba sempre fixo
+        hook.doneEach(function () {
+          document.title = 'Regras Cidade dos Artistas';
         });
       }
     ].concat(window.$docsify.plugins || []);
