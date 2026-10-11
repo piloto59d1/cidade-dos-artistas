@@ -1,6 +1,6 @@
 # REGRAS GERAIS
 
-* Tenha sempre <mark style="color:$primary;">**BOM SENSO**</mark>, pense antes de agir, reflita se realmente faria o que está prestes a fazer, na sua vida real.
+* Tenha sempre **BOM SENSO**, pense antes de agir, reflita se realmente faria o que está prestes a fazer, na sua vida real.
 * Fica totalmente proibido o uso de mira fixa dentro da cidade/servidor. Qualquer jogador flagrado utilizando esse tipo de recurso será punido com banimento até a remoção completa da mira fixa e comprovação para a staff.
 
 {% hint style="info" %}
@@ -8,8 +8,8 @@ Além disso, denúncias, tickets ou provas enviadas por jogadores utilizando mir
 {% endhint %}
 
 * **Nunca fale fora do RP estando dentro da cidade**, siga sempre o seu personagem independente do que aconteça.
-* É <mark style="color:$primary;">**proibido**</mark> fazer qualquer tipo de chamado (call) com intuito de assaltar ou matar alguém.
-* Após você ser nocauteado ou morto, quando estiver novamente de pé, tendo ido para o ponto de respawn ou sendo levantado por médicos, <mark style="color:$warning;">**deverá esquecer tudo que aconteceu**</mark>\*\* e seguir sua vida dali adiante.\*\*
+* É **proibido** fazer qualquer tipo de chamado (call) com intuito de assaltar ou matar alguém.
+* Após você ser nocauteado ou morto, quando estiver novamente de pé, tendo ido para o ponto de respawn ou sendo levantado por médicos, **deverá esquecer tudo que aconteceu** e seguir sua vida dali adiante.
 * É **proibido** estar setado em mais que um grupo ao mesmo tempo (legal ou ilegal).
 * Ao sair de qualquer grupo setado, deverá aguardar o prazo de 3 dias para fazer parte de um novo.
 * É **proibido** realizar qualquer chamado (call) enquanto está morto ou algemado.

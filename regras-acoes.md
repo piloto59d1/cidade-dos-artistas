@@ -1,6 +1,6 @@
 # REGRAS AÇÕES
 
-* [Regras Gerais](regras-ilegal/regras-gerais.md)
+* [Regras Gerais](regras-acoes/regras-gerais.md)
 * [Ações de Rua / Assaltos](regras-acoes/acoes-de-rua-assaltos.md)
 * [Blipadas](regras-acoes/blipadas.md)
 * [Regras Sequestro](regras-acoes/regras-sequestro.md)

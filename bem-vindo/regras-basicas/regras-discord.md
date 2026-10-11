@@ -68,7 +68,7 @@ Qualquer tipo de provocação, farpas, discussões de RP, tumulto ou desentendim
 * Continuar discussões após avisos da STAFF.
   {% endhint %}
 
-{% hint style="warning" %} <mark style="color:$warning;">**Punições:**</mark>
+{% hint style="warning" %} **Punições:**
 
 As punições serão aplicadas de forma progressiva, conforme a reincidência da infração:
 

@@ -107,7 +107,7 @@ Caso testemunhe alguém **não ajudando um jogador caído ou desmaiado** em **si
 * Qualquer forma de comércio, venda ou troca de contas de jogo, itens de jogo, moeda de jogo e bem como toda e qualquer transferência que for conduzida fora do jogo são estritamente proibidas e os jogadores envolvidos serão banidos permanentemente.
 
 {% hint style="info" %}
-*Promover um ambiente* ***realista e imersivo*** *, onde os jogadores* ***ajudam uns aos outros*** *, mas reconhecem que, em situações de alto risco ou durante ações específicas, a* ***prioridade deve ser a sobrevivência e a missão*** *. Essa regra equilibra a* ***colaboração*** *com o* ***realismo**.*
+*Promover um ambiente* **realista e imersivo**, *onde os jogadores* **ajudam uns aos outros**, *mas reconhecem que, em situações de alto risco ou durante ações específicas, a* **prioridade deve ser a sobrevivência e a missão**. *Essa regra equilibra a* **colaboração** *com o* **realismo**.
 {% endhint %}
 
 ## ABUSO DE MULTAS E UTILIZAÇÃO DE VEÍCULOS DE TERCEIROS

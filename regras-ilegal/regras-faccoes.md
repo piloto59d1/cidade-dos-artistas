@@ -21,7 +21,7 @@ O descumprimento desta regra poderá resultar em **banimento permanente**, de ac
 
 **🚫** Proibido qualquer tipo de "caixa 2".
 
-* Caixa 2 é o ato de desviar, roubar ou esconder itens do baú da organização para benefício próprio ou de terceiros. **Essa infração resulta em banimento&#x20;*****permanente***. Em caso de suspeita o responsável pela organização ilegal deve abrir um ticket para que seja feita uma averiguação do caso.
+* Caixa 2 é o ato de desviar, roubar ou esconder itens do baú da organização para benefício próprio ou de terceiros. **Essa infração resulta em banimento permanente.** Em caso de suspeita o responsável pela organização ilegal deve abrir um ticket para que seja feita uma averiguação do caso.
 
 **🚫** Proibido retirar itens do baú da organização antes ou depois de entregá-la.
 
