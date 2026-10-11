@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ouro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe27a"/>
+      <stop offset="45%" stop-color="#ffc800"/>
+      <stop offset="100%" stop-color="#d99a06"/>
+    </linearGradient>
+    <linearGradient id="ouroEscuro" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#7a5c00"/>
+    </linearGradient>
+    <radialGradient id="fundoGrad" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#1b1b1b"/>
+      <stop offset="60%" stop-color="#0c0c0c"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <filter id="sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="brilhoOuro" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#ffc800" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <!-- Fundo preto -->
+  <rect width="512" height="512" fill="url(#fundoGrad)"/>
+
+  <!-- Formas geométricas sutis ao fundo -->
+  <g fill="none" stroke="#ffffff" opacity="0.05">
+    <path d="M256 46 L 438 152 L 438 360 L 256 466 L 74 360 L 74 152 Z" stroke-width="26"/>
+    <path d="M256 120 L 380 194 L 380 318 L 256 392 L 132 318 L 132 194 Z" stroke-width="14"/>
+  </g>
+
+  <!-- Canto superior esquerdo: formas angulares douradas -->
+  <g filter="url(#sombra)">
+    <polygon points="0,0 188,0 46,130 0,102" fill="url(#ouro)"/>
+    <polygon points="0,118 56,146 26,176 0,160" fill="url(#ouro)" opacity="0.55"/>
+    <polygon points="204,0 224,0 60,156 48,142" fill="url(#ouro)" opacity="0.35"/>
+  </g>
+
+  <!-- Canto inferior direito: riscos diagonais dourados -->
+  <g filter="url(#sombra)">
+    <polygon points="512,512 330,512 470,372 512,408" fill="url(#ouro)"/>
+    <polygon points="512,398 458,362 488,330 512,352" fill="url(#ouro)" opacity="0.55"/>
+    <polygon points="300,512 282,512 452,342 464,354" fill="url(#ouro)" opacity="0.35"/>
+  </g>
+
+  <!-- Faixa dourada "CIDADE DOS" -->
+  <g filter="url(#sombra)">
+    <rect x="171" y="158" width="170" height="36" rx="7" fill="url(#ouro)"/>
+  </g>
+  <text x="256" y="183" text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif" font-weight="900"
+        font-size="21" fill="#111111" letter-spacing="4">CIDADE DOS</text>
+
+  <!-- Nome grande -->
+  <g transform="translate(256 296) skewX(-7)">
+    <text x="0" y="0" text-anchor="middle"
+          font-family="Arial Black, Arial, sans-serif" font-weight="900"
+          font-style="italic" font-size="98" fill="#ffffff"
+          letter-spacing="-2" filter="url(#sombra)">Artistas</text>
+  </g>
+
+  <!-- Coroa em cima do último "s" -->
+  <g transform="translate(424 208) rotate(14) scale(1.15)" filter="url(#brilhoOuro)">
+    <path d="M 0 26 L 5 10 L 14 20 L 21 4 L 28 20 L 37 10 L 42 26 Z" fill="url(#ouro)"/>
+    <rect x="0" y="26" width="42" height="6" rx="3" fill="url(#ouroEscuro)"/>
+    <circle cx="5" cy="7" r="3" fill="#ffe27a"/>
+    <circle cx="21" cy="2" r="3.4" fill="#ffe27a"/>
+    <circle cx="37" cy="7" r="3" fill="#ffe27a"/>
+  </g>
+
+  <!-- ROLEPLAY -->
+  <text x="256" y="352" text-anchor="middle"
+        font-family="Arial, sans-serif" font-weight="700"
+        font-size="22" fill="url(#ouro)" letter-spacing="12">ROLEPLAY</text>
+</svg>
