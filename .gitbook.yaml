@@ -1,0 +1,7 @@
+# Configuração do GitBook
+root: ./
+
+# Estrutura das páginas baseada no SUMMARY.md
+structure:
+  readme: README.md
+  summary: SUMMARY.md
