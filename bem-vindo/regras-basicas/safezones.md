@@ -12,9 +12,9 @@
 
 ### Locais de Safezones
 
-* [Hospital](safezones/hospital.md)
-* [Batalhões](safezones/batalhoes.md)
-* [Detran](safezones/detran.md)
-* [Receita Federal](safezones/receita-federal.md)
-* [Mecânicas](safezones/mecanica.md)
-* [Jurídico](safezones/juridico.md)
+* [Hospital](/bem-vindo/regras-basicas/safezones/hospital.md)
+* [Batalhões](/bem-vindo/regras-basicas/safezones/batalhoes.md)
+* [Detran](/bem-vindo/regras-basicas/safezones/detran.md)
+* [Receita Federal](/bem-vindo/regras-basicas/safezones/receita-federal.md)
+* [Mecânicas](/bem-vindo/regras-basicas/safezones/mecanica.md)
+* [Jurídico](/bem-vindo/regras-basicas/safezones/juridico.md)

@@ -21,7 +21,7 @@ Todos os jogadores têm o direito de solicitar a reavaliação de uma punição,
 | **2ª Advertência!**  | **2° Advertência + 4 dias de banimento!** | **Permanente**       |
 | **3ª Advertência!**  | **Banimento permanente!**                 | **Permanente**       |
 
-Caso a advertência aplicada seja por [**COMBAT LOGING**](regras-basicas.md#combat-logging), a punição será Banimento Permanente + Perda do personagem.
+Caso a advertência aplicada seja por [**COMBAT LOGING**](/bem-vindo/regras-basicas/regras-basicas.md#combat-logging), a punição será Banimento Permanente + Perda do personagem.
 
 {% hint style="danger" %}
 Jogadores que tenham recebido punições severas em seasons anteriores, como **Dark RP** ou **Zaralho**, poderão estar sujeitos ao banimento permanente, considerando tais ocorrências como agravantes no histórico disciplinar.
