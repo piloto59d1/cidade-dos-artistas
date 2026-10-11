@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Regras — Cidade dos Artistas</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Documentação oficial de regras da Cidade dos Artistas RP">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #7c3aed;
+      --theme-color-dark: #5b21b6;
+    }
+    .sidebar-nav li.active > a { border-right: 2px solid var(--theme-color); }
+    nav.app-nav { display: none; }
+
+    /* ===== Hints (estilo GitBook) ===== */
+    .gb-hint {
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 14px 0;
+      border-left: 4px solid;
+      font-size: 0.95em;
+    }
+    .gb-hint > p:first-child { margin-top: 0; }
+    .gb-hint > p:last-child { margin-bottom: 0; }
+    .gb-hint.info    { background: #eef6ff; border-color: #3b82f6; color: #1e3a5f; }
+    .gb-hint.warning { background: #fff8e6; border-color: #f59e0b; color: #7a4d02; }
+    .gb-hint.danger  { background: #fdecec; border-color: #ef4444; color: #7f1d1d; }
+    .gb-hint.success { background: #ecfdf5; border-color: #10b981; color: #065f46; }
+
+    /* ===== Stepper (estilo GitBook) ===== */
+    .gb-stepper { margin: 16px 0; }
+    .gb-step {
+      position: relative;
+      padding: 4px 0 18px 40px;
+      border-left: 2px solid #e5e7eb;
+      margin-left: 14px;
+    }
+    .gb-step:last-child { border-left-color: transparent; padding-bottom: 4px; }
+    .gb-step::before {
+      content: counter(gbstep);
+      counter-increment: gbstep;
+      position: absolute;
+      left: -15px; top: 0;
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: var(--theme-color);
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 0.85em;
+    }
+    .gb-stepper { counter-reset: gbstep; }
+
+    /* Tabelas */
+    .markdown-section table { display: table; width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '🎨 Cidade dos Artistas',
+      repo: '',
+      coverpage: false,
+      onlyCover: false,
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      relativePath: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      markdown: {
+        renderer: {
+          // Intercepta blocos para suportar a sintaxe GitBook
+        }
+      }
+    };
+
+    // ===== Plugin: converte sintaxe GitBook (hint/stepper) em HTML =====
+    window.$docsify.plugins = [
+      function (hook, vm) {
+        // Converte ANTES do markdown processar
+        hook.beforeEach(function (content) {
+          // {% hint style="xxx" %} ... {% endhint %}
+          content = content.replace(
+            /\{%\s*hint\s+style="([\w-]+)"\s*(?:icon="[^"]*")?\s*%\}/g,
+            '\n<div class="gb-hint $1">\n'
+          );
+          content = content.replace(/\{%\s*endhint\s*%\}/g, '\n</div>\n');
+
+          // {% stepper %} ... {% endstepper %}
+          content = content.replace(/\{%\s*stepper\s*%\}/g, '\n<div class="gb-stepper">\n');
+          content = content.replace(/\{%\s*endstepper\s*%\}/g, '\n</div>\n');
+
+          // {% step %} ... {% endstep %}
+          content = content.replace(/\{%\s*step\s*%\}/g, '\n<div class="gb-step">\n');
+          content = content.replace(/\{%\s*endstep\s*%\}/g, '\n</div>\n');
+
+          // Remove tags GitBook que não suportamos (imagens inline já funcionam)
+          content = content.replace(/\{%\s*embed\s+[^%]*%\}/g, '');
+          return content;
+        });
+      }
+    ].concat(window.$docsify.plugins || []);
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>
